@@ -1,4 +1,8 @@
 1ik415-laborationer
 ===================
 
-mina laborationer i Webbteknisk introduktion.
+Mina laborationer i Webbteknisk introduktion.
+
+Samling av material i kursen..
+
+blabla
