@@ -1,5 +1,50 @@
-p { color:#B98;}
+body{font-size: 1em;}
 
+
+p { color:#B98;}
+a:link {color: black;}
+a:visited {color: olive;}
+a:focus {color: green;}
+a:hover {color: orange;}
+a:active {color: silver;}
+
+
+#container
+{
+    width: 1200px;
+    height: 1000px;
+    margin: 1 auto;
+    overflow: auto;
+}
+#top {
+    color: blue;
+    border-style: solid;
+    width: 80%;
+}
+#navigation {
+    float: left;
+    text-align: left;
+    color: black;
+    border-style: solid;
+    height: 60%;
+    width: 15%;
+    margin: 0px 0px 0px 0px;
+}
+#content{
+    float: left;
+     color: red;
+    border-style: solid;
+    height: 60%;
+    width: 65%;
+    overflow: auto;
+}
+#footer{
+     height: 10%;
+     width: 80%;
+     color: green;
+     border-style:solid;
+     clear: both;
+}
 
 
 

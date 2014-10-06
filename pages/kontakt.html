@@ -4,52 +4,62 @@
 <head>
     <meta charset="utf-8" />
     <title>Jens Kontakt</title>
-
+    <link rel="stylesheet" href="../css/style.css" />
 </head>
 
 <body>
+    <div id="container">
+        <div id="top">
+            <h1>Kontakt</h1>
+            <h3>Kolla in mina uppgifter</h3>
+        </div>
+        <div id="navigation">
+            <ul>
+                <li><a href="../index.html">Start</a>
+                </li>
+                <li><a href="laborationer.html">Laborationer</a>
+                </li>
+                <li> <a href="presentation.html">Presentation</a>
+                </li>
+                <li> <a href="kontakt.html">Kontakt</a>
+                </li>
+            </ul>
+        </div>
+        <div id="content">
+            <p>Har du något viktigt att säga mig så släng iväg ett formulär här:</p>
+            <form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="POST">
+                <fieldset>
+                    <legend>Personlig info</legend>
+                    Namn:
+                    <input type="text" name="userid" />
+                    </br>
+                    Efternamn:
+                    <input type="text" name="userid" />
+                    <br>Email:
+                    <input type="email" name="userid" />
+                    <br>Kön:
+                    <input type="radio" name="sex" value="male">Man
+                    <input type="radio" name="sex" value="female">Kvinna
+                </fieldset>
+                <fieldset>
+                    <legend>Din fråga</legend>
+                    <select name="Fråga" id="Fråga">
+                        <option value="personlig">Personlig</option>
+                        <option value="fråga chans">Fråga chans</option>
+                        <option value="fritid">Fritid</option>
+                        <option value="sidan">Sidan</option>
+                    </select>
+                    <textarea rows="5" cols="50">Skriv in din fråga här</textarea>
+                    <input type="submit" value="Skicka">
+                </fieldset>
 
-    <h1>Kontakt</h1>
-    <h3>Kolla in mina uppgifter</h3>
-    <ul>
-        <li><a href="../index.html">Start</a>
-        </li>
-        <li><a href="laborationer.html">Laborationer</a>
-        </li>
-        <li> <a href="presentation.html">Presentation</a>
-        </li>
-        <li> <a href="kontakt.html">Kontakt</a>
-        </li>
-    </ul>
-
-    <p>Har du något viktigt att säga mig så släng iväg ett formulär här:</p>
-    <form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="POST">
-        <fieldset>
-            <legend>Personlig info</legend>
-            Namn:
-            <input type="text" name="userid" />
-            </br>
-            Efternamn:
-            <input type="text" name="userid" />
-            <br>Email:
-            <input type="email" name="userid" />
-            <br>Kön:
-            <input type="radio" name="sex" value="male">Man
-            <input type="radio" name="sex" value="female">Kvinna
-        </fieldset>
-        <fieldset>
-            <legend>Din fråga</legend>
-            <select name="Fråga" id="Fråga">
-                <option value="personlig">Personlig</option>
-                <option value="fråga chans">Fråga chans</option>
-                <option value="fritid">Fritid</option>
-                <option value="sidan">Sidan</option>
-            </select>
-            <textarea rows="5" cols="50">Skriv in din fråga här</textarea>
-            <input type="submit" value="Skicka">
-        </fieldset>
-
-    </form>
+            </form>
+        </div>
+        <div id="footer">
+            <p>skrivet av Jens, 2014-10-05</p>
+            <p>Ansvarig för materialet på denna sida är Jens Larsson</p>
+        </div>
+    </div>
 </body>
 
 </html>
