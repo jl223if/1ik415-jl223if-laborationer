@@ -2,12 +2,6 @@ body{font-size: 1em;}
 
 p{color:#001C00;}
 
-a:link {color: black;}
-a:visited {color: olive;}
-a:focus {color: green;}
-a:hover {color: orange;}
-a:active {color: yellow;}
-
 #container
 {
     max-width: 1200px;
@@ -16,22 +10,20 @@ a:active {color: yellow;}
     overflow: auto;
 }
 #top {
-    border-style: solid;
     top: 250px;
     width: 80%;
     background-color:#2E712E;
+    
 }
 #navigation {
     float: left;
     text-align: left;
-    border-style: solid;
     height: 60%;
     width: 15%;
     background-color:#12DD12;
 }
 #content{
     float: left;
-    border-style: solid;
     height: 60%;
     width: 65%;
     overflow: auto;
@@ -40,10 +32,33 @@ a:active {color: yellow;}
 #footer{
      height: 10%;
      width: 80%;
-     border-style:solid;
      clear: both;
      background-color:#61CA61;
 }
 
+#box1{
+    width: 100px;
+    height: 20px;
+    background-color: rgba(255, 156, 145, 0.4);
+    border-radius: 6px;
+    box-shadow:#333 3px 3px 4px;
+}
 
+ul {Border: 1px solid black;
+    border-bottom: none;
+    width:200px;
+    margin: 0; padding: 0;
+}
+
+li {
+    list-style-type: none;
+    border-bottom: 1px solid black;
+}
+
+
+/*.link:link {background:lime;}
+.link:visited {background:green;}
+.link:focus {color:red;}
+.link:hover {background:none;}
+.link:active {color:yellow;} */
 
