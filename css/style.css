@@ -1,51 +1,49 @@
 body{font-size: 1em;}
 
+p{color:#001C00;}
 
-p { color:#B98;}
 a:link {color: black;}
 a:visited {color: olive;}
 a:focus {color: green;}
 a:hover {color: orange;}
-a:active {color: silver;}
-
+a:active {color: yellow;}
 
 #container
 {
-    width: 1200px;
+    max-width: 1200px;
     height: 1000px;
     margin: 1 auto;
     overflow: auto;
 }
 #top {
-    color: blue;
     border-style: solid;
+    top: 250px;
     width: 80%;
+    background-color:#2E712E;
 }
 #navigation {
     float: left;
     text-align: left;
-    color: black;
     border-style: solid;
     height: 60%;
     width: 15%;
-    margin: 0px 0px 0px 0px;
+    background-color:#12DD12;
 }
 #content{
     float: left;
-     color: red;
     border-style: solid;
     height: 60%;
     width: 65%;
     overflow: auto;
+    background-color:#C0D9C0;
 }
 #footer{
      height: 10%;
      width: 80%;
-     color: green;
      border-style:solid;
      clear: both;
+     background-color:#61CA61;
 }
-
 
 
 
