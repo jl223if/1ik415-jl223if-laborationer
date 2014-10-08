@@ -1,4 +1,3 @@
-body{font-size: 1em;}
 
 p{color:#001C00;}
 
@@ -9,19 +8,45 @@ p{color:#001C00;}
     margin: 1 auto;
     overflow: auto;
 }
-#top {
-    top: 250px;
+#header{
+    height: 100px;
     width: 80%;
     background-color:#2E712E;
-    
 }
 #navigation {
     float: left;
-    text-align: left;
     height: 60%;
-    width: 15%;
+    width: 150px;
     background-color:#12DD12;
 }
+
+
+#navigation ul{
+  list-style-type:none;
+  margin: 0;
+  padding: 0;
+}
+
+#navigation ul li a{
+    background-color: green;
+    color: black;
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 6px;
+    box-shadow:#333 3px 3px 4px;
+}
+
+#navigation ul li a:hover{
+    color: red;
+    background-color: lime;
+    box-shadow: green 1px 1px 1px;
+}
+
+#navigation .active{
+    background-color:red;
+}
+
 #content{
     float: left;
     height: 60%;
@@ -44,18 +69,34 @@ p{color:#001C00;}
     box-shadow:#333 3px 3px 4px;
 }
 
-ul {Border: 1px solid black;
+
+
+/*.link{
+   border: 1px solid;
+   display: block;
+   width: 150px;
+}
+.link:hover{
+    background-color: #C0D9C0;
+}
+.link ul {Border: 1px solid black;
     border-bottom: none;
-    width:200px;
+    width: 198px;
     margin: 0; padding: 0;
 }
 
-li {
+.link li {
     list-style-type: none;
     border-bottom: 1px solid black;
 }
 
-
+.link li a{
+    display: block;
+    padding: 10px;
+}
+.link li a:hover{
+        background-color: #C0D9C0;
+} */
 /*.link:link {background:lime;}
 .link:visited {background:green;}
 .link:focus {color:red;}
