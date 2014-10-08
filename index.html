@@ -5,14 +5,16 @@
     <meta charset="utf-8" />
     <title>Jens Sida</title>
     <link rel="stylesheet" href="css/style.css" />
+    <style>
+    </style>
 </head>
 
 <body>
     <div id="container">
-    <div id="header">
+        <div id="header">
             <h1>Jens Sida</h1>
-            <h3>Hej och välkommen</h3>
-    </div>
+            <h2>Hej och välkommen</h2>
+        </div>
         <div id="navigation">
             <ul>
                 <li><a href="index.html" class="active">Start</a>
@@ -25,34 +27,39 @@
                 </li>
             </ul>
         </div>
+
         <div id="content">
+            <h2>KURSBLOGGEN</h2>
             <!-- Blogg 1 </-->
+
+            <h3>Intro</h3>
             <p>På denna sida kommer jag skriva om de laborationer som jag gör i webbteknik.</p>
 
 
-            <p>skrivet av Jens, 2014-09-15</p>
-
-
+           <p> <cite>skrivet av Jens, 2014-09-15</cite> </p>
 
             <!-- Blogg 2 </-->
-            <p>Här är en liten smiley av typen svg. Detta format är uppbyggt av vektorer</p>
-            <img src="pics/star.svg" alt="Bilden kan inte visas" width="150" height="150" id="star" />
+            <div class="blogg">
+                <h3>Smiley</h3>
+                <p>Här är en liten stjärna av typen svg. Detta format är uppbyggt av vektorer.</p>
+                <img src="pics/star.svg" alt="Bilden kan inte visas" width="150" height="150" id="star" />
+                <p>Här är en en vanlig smiley som är av typen png.</p>
+                <img src="pics/smiley.png" alt="Bilden kan inte visas" width="150" height="150" id="smiley" />
 
-            <p>skrivet av Jens, 2014-10-05</p>
-
-
-            <img src="pics/smiley.png" alt="Bilden kan inte visas" width="150" height="150" id="smiley" />
-
-            <!-- Blogg 3 </-->
+               <p> <cite>skrivet av Jens, 2014-10-05</cite> </p>
+            </div>
+            <!-- Blogg 2 </-->
+            <h3>Media</h3>
             <p>I denna blogg har jag lagt till lite filmer</p>
             <video id="trailer" controls poster="pics/trailerPic.png" preload="none" width="640" height="480">
                 <source src="videos/trailer1.ogg" type="video/ogg" />
                 <source src="videos/trailer2.mov" type="video/mov" />
             </video>
+           <p><cite>skrivet av Jens, 2014-10-05</cite> </p> 
 
         </div>
         <div id="footer">
-            <p>skrivet av Jens, 2014-10-05</p>
+
 
             <p>Ansvarig för materialet på denna sida är Jens Larsson</p>
         </div>

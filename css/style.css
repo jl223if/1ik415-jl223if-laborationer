@@ -1,6 +1,40 @@
+h1{
+    margin: 0px;
+}
 
-p{color:#001C00;}
+h2{ 
+    padding: 20px;
+    font-family: arial;
+    margin: 0px;
+}
 
+h3{
+    padding: 9px;
+    margin: 18px;
+    font-family: arial;
+    border-bottom: solid;
+    border-bottom-color: green;
+}
+
+a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: olive;
+    margin: 20px;
+}
+
+cite{
+    margin: 20px;
+    color: green;
+    float: right;
+    text-align: right;
+    clear: both;
+   padding-bottom: 50px;
+}
+a:hover{
+    text-decoration: underline;
+}
 #container
 {
     max-width: 1200px;
@@ -12,6 +46,9 @@ p{color:#001C00;}
     height: 100px;
     width: 80%;
     background-color:#2E712E;
+    
+    font-family: "verdana";
+    text-align: center;
 }
 #navigation {
     float: left;
@@ -20,14 +57,16 @@ p{color:#001C00;}
     background-color:#12DD12;
 }
 
-
 #navigation ul{
   list-style-type:none;
   margin: 0;
   padding: 0;
+  
+  font-family: "verdana";
+  font-weight: bold;
+  
 }
-
-#navigation ul li a{
+#navigation a{
     background-color: green;
     color: black;
     display: block;
@@ -35,18 +74,18 @@ p{color:#001C00;}
     margin: 10px;
     border-radius: 6px;
     box-shadow:#333 3px 3px 4px;
+    text-decoration: none;
 }
-
-#navigation ul li a:hover{
+#navigation a:hover{
     color: red;
     background-color: lime;
     box-shadow: green 1px 1px 1px;
+    
 }
-
 #navigation .active{
-    background-color:red;
+    color: red;
+    text-shadow: 1px 1px yellow;
 }
-
 #content{
     float: left;
     height: 60%;
@@ -54,6 +93,25 @@ p{color:#001C00;}
     overflow: auto;
     background-color:#C0D9C0;
 }
+
+#content p{
+    font-size: 16px;
+    font-family: arial;
+    margin: 20px;
+}
+
+#content ul {
+    margin: 20px;
+}
+#content dt:first-letter{
+    padding-left: 10px;
+    font-size: 1.5em;
+}
+
+#content h3{
+     
+}
+
 #footer{
      height: 10%;
      width: 80%;
