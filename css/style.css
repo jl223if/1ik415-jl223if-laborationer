@@ -6,6 +6,9 @@ h2 {
     font-family: arial;
     margin: 0px;
 }
+
+/* h3 fungerar som ett blogginlägg */
+
 h3 {
     padding: 9px;
     margin: 18px;
@@ -18,6 +21,7 @@ h3 {
      background-position: left;
      text-indent: 32px;
   }
+  
 a {
     font-size: 16px;
     font-weight: bold;
@@ -31,11 +35,14 @@ cite {
     float: right;
     text-align: right;
     clear: both;
-    padding-bottom: 50px;
 }
 a:hover {
     text-decoration: underline;
 }
+
+/* kroppen av hemsidan*/
+
+
 #container {
     max-width: 1200px;
     height: 1000px;
@@ -113,6 +120,20 @@ a:hover {
     clear: both;
     background-color: #61CA61;
 }
+
+.left
+{
+    
+}
+
+.right
+{
+    float: right;
+    margin: 0px 20px 20px 10px;
+}
+
+/* ÖVRIGT. Som inte! är implementart */ 
+
 #box1 {
     width: 100px;
     height: 20px;
