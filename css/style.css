@@ -20,6 +20,7 @@ h3 {
      background-repeat: no-repeat;
      background-position: left;
      text-indent: 32px;
+     clear: both;
   }
   
 a {
@@ -47,7 +48,7 @@ a:hover {
     max-width: 1200px;
     height: 1000px;
     margin: 1 auto;
-    overflow: auto;
+    overflow: auto; 
 }
 #header {
     height: 100px;
@@ -68,6 +69,8 @@ a:hover {
     width: 15%;
     background-color: #12DD12;
 }
+
+/* lists */
 #navigation ul {
     list-style-type: none;
     margin: 0;
@@ -75,6 +78,12 @@ a:hover {
     font-family: "verdana";
     font-weight: bold;
 }
+
+dl {
+    
+}
+
+
 #navigation a {
     background-color: green;
     color: black;

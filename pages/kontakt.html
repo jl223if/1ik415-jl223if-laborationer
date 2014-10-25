@@ -10,7 +10,7 @@
 <body>
     <div id="container">
         <div id="header">
-         
+
         </div>
         <div id="navigation">
             <ul style="list-style-type:none">
@@ -25,20 +25,28 @@
             </ul>
         </div>
         <div id="content">
-             <h2>Det är bara att kontakta</h2>
-            <form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="POST">
+            <h2>Det är bara att kontakta</h2>
+            <form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="GET">
                 <fieldset>
                     <legend>Personlig info</legend>
-                    Namn:
-                    <input type="text" name="userid" />
-                    </br>
-                    Efternamn:
-                    <input type="text" name="userid" />
-                    <br>Email:
-                    <input type="email" name="userid" />
-                    <br>Kön:
-                    <input type="radio" name="sex" value="male">Man
-                    <input type="radio" name="sex" value="female">Kvinna
+                    <dl>
+                        <li>
+                            <label for="username">Namn:</label>
+                            <input type="text" name="username" id="username" />
+                        </li>
+                        <li>
+                            <label for="userlast">Efternamn:</label>
+                            <input type="text" name="userlast" id="userlast" />
+                        </li>
+                        <li>
+                            <label for="usermail">Email:</label>
+                            <input type="email" name="usermail" id="usermail" />
+                        </li>
+                        <li>Kön:
+                            <input type="radio" name="sex" value="male">Man
+                            <input type="radio" name="sex" value="female">Kvinna
+                        </li>
+                    </dl>
                 </fieldset>
                 <fieldset>
                     <legend>Din fråga</legend>
