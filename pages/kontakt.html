@@ -29,35 +29,34 @@
             <form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="GET">
                 <fieldset>
                     <legend>Personlig info</legend>
-                    <dl>
-                        <li>
-                            <label for="username">Namn:</label>
-                            <input type="text" name="username" id="username" />
-                        </li>
-                        <li>
-                            <label for="userlast">Efternamn:</label>
-                            <input type="text" name="userlast" id="userlast" />
-                        </li>
-                        <li>
-                            <label for="usermail">Email:</label>
-                            <input type="email" name="usermail" id="usermail" />
-                        </li>
-                        <li>Kön:
-                            <input type="radio" name="sex" value="male">Man
-                            <input type="radio" name="sex" value="female">Kvinna
-                        </li>
-                    </dl>
+                    <div class="box1">
+                        <label for="username">Namn:</label>
+                        <label for="userlast">Efternamn:</label>
+                        <label for="usermail">Email:</label>
+                    </div>
+                    <div class="box2">
+                        <input type="text" name="userlast" id="userlast"/>
+                        <input type="text" name="username" id="username" />
+                        <input type="email" name="usermail" id="usermail"/>
+                    </div>
+                    <div class="box3">
+                        Kön:
+                        <input type="radio" name="sex" value="female">Kvinna
+                        <input type="radio" name="sex" value="male">Man
+                    </div>
                 </fieldset>
                 <fieldset>
                     <legend>Din fråga</legend>
+                    <div class="box1">
                     <select name="Fråga" id="Fråga">
                         <option value="personlig">Personlig</option>
                         <option value="fråga chans">Fråga chans</option>
                         <option value="fritid">Fritid</option>
                         <option value="sidan">Sidan</option>
                     </select>
-                    <textarea rows="5" cols="50">Skriv in din fråga här</textarea>
-                    <input type="submit" value="Skicka">
+                    </div>
+                    <textarea rows="5" cols="50" class="box2">Skriv in din fråga här</textarea>
+                    <input type="submit" value="Skicka" class="box3">
                 </fieldset>
 
             </form>

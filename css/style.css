@@ -57,9 +57,6 @@ a:hover {
     text-align: center;
     background-color: green;
     background-image: url(pics/jenssida.png);
-
-    
-    
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -78,11 +75,6 @@ a:hover {
     font-family: "verdana";
     font-weight: bold;
 }
-
-dl {
-    
-}
-
 
 #navigation a {
     background-color: green;
@@ -130,18 +122,55 @@ dl {
     background-color: #61CA61;
 }
 
+/* KONTAKT */
+
+fieldset
+{
+    width: 500px;
+}
+.box1
+{
+    width: 100px;
+    height: 80px;
+     float: left;
+}
+
+.box2
+{
+    float: left;
+    height: 80px;
+    width: 200px;
+}
+.box3
+{
+    clear: both;
+}
+
+fieldset
+{
+ width: 320px;
+}
+
+/* klasser man kan använda */
 .left
 {
-    
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: olive;
 }
 
 .right
 {
     float: right;
-    margin: 0px 20px 20px 10px;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: olive;
 }
 
-/* ÖVRIGT. Som inte! är implementart */ 
+/* ÖVRIGT. Som inte! är implementart 
 
 #box1 {
     width: 100px;
@@ -150,3 +179,4 @@ dl {
     border-radius: 6px;
     box-shadow: #333 3px 3px 4px;
 }
+*/ 
