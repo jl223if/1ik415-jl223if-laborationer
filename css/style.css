@@ -170,6 +170,24 @@ fieldset
     color: olive;
 }
 
+.sprite
+{
+    width: 24px;
+    height: 24px;
+    display: block;
+    background-image: url("pics/sprite.png");
+    float: left;
+}
+
+.sprite span { display: none;}
+
+#spritePic
+{
+    background-position: 0 24px;
+}
+#spritePic:hover {
+    background-position: 0 0;
+}
 /* ÖVRIGT. Som inte! är implementart 
 
 #box1 {
