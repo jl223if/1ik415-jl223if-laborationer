@@ -1,0 +1,182 @@
+h1 {
+    margin: 0px;
+}
+h2 {
+    padding: 20px;
+    font-family: arial;
+    margin: 0px;
+}
+
+/* h3 fungerar som ett blogginlägg */
+
+h3 {
+    padding: 9px;
+    margin: 18px;
+    font-family: arial;
+    border-bottom: solid;
+    border-bottom-color: green;
+    
+     background-image: url(pics/paprika.png);
+     background-repeat: no-repeat;
+     background-position: left;
+     text-indent: 32px;
+     clear: both;
+  }
+  
+a {
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: olive;
+    margin: 20px;
+}
+cite {
+    margin: 20px;
+    color: green;
+    float: right;
+    text-align: right;
+    clear: both;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+/* kroppen av hemsidan*/
+
+
+#container {
+    max-width: 1200px;
+    height: 1000px;
+    margin: 1 auto;
+    overflow: auto; 
+}
+#header {
+    height: 100px;
+    width: 80%;
+    font-family: "verdana";
+    text-align: center;
+    background-color: green;
+    background-image: url(pics/jenssida.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#navigation {
+    float: left;
+    height: 60%;
+    width: 15%;
+    background-color: #12DD12;
+}
+
+/* lists */
+#navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-family: "verdana";
+    font-weight: bold;
+}
+
+#navigation a {
+    background-color: green;
+    color: black;
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 6px;
+    box-shadow: #333 3px 3px 4px;
+    text-decoration: none;
+}
+#navigation a:hover {
+    color: red;
+    background-color: lime;
+    box-shadow: green 1px 1px 1px;
+}
+#navigation .active {
+    color: red;
+    text-shadow: 1px 1px yellow;
+}
+#content {
+    float: left;
+    height: 60%;
+    width: 65%;
+    overflow: auto;
+    background-color: #C0D9C0;
+}
+#content p {
+    font-size: 16px;
+    font-family: arial;
+    margin: 20px;
+}
+#content ul {
+    margin: 20px;
+}
+#content dt:first-letter {
+    padding-left: 10px;
+    font-size: 1.5em;
+}
+
+#footer {
+    height: 10%;
+    width: 80%;
+    clear: both;
+    background-color: #61CA61;
+}
+
+/* KONTAKT */
+
+fieldset
+{
+    width: 500px;
+}
+.box1
+{
+    width: 100px;
+    height: 80px;
+     float: left;
+}
+
+.box2
+{
+    float: left;
+    height: 80px;
+    width: 200px;
+}
+.box3
+{
+    clear: both;
+}
+
+fieldset
+{
+ width: 320px;
+}
+
+/* klasser man kan använda */
+.left
+{
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: olive;
+}
+
+.right
+{
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: olive;
+}
+
+/* ÖVRIGT. Som inte! är implementart 
+
+#box1 {
+    width: 100px;
+    height: 20px;
+    background-color: rgba(255, 156, 145, 0.4);
+    border-radius: 6px;
+    box-shadow: #333 3px 3px 4px;
+}
+*/ 
